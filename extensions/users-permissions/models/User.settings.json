@@ -60,6 +60,10 @@
     "lists": {
       "via": "user",
       "collection": "list"
+    },
+    "tags": {
+      "via": "user",
+      "collection": "tag"
     }
   }
 }
