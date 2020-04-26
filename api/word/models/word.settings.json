@@ -19,7 +19,7 @@
     },
     "kanji": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "roumaji": {
       "type": "string",
