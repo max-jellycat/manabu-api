@@ -33,6 +33,10 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "words"
+    },
+    "tags": {
+      "via": "words",
+      "collection": "tag"
     }
   }
 }
