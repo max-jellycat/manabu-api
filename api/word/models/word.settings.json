@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Word"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "native": {
+      "type": "string",
+      "required": true
+    },
+    "hiragana": {
+      "type": "string",
+      "required": true
+    },
+    "kanji": {
+      "type": "string",
+      "required": true
+    },
+    "roumaji": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "words"
+}
