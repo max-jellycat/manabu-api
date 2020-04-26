@@ -14,8 +14,8 @@
       "required": true
     },
     "words": {
-      "collection": "word",
       "via": "lists",
+      "collection": "word",
       "dominant": true
     },
     "user": {

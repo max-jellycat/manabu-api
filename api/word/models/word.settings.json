@@ -13,7 +13,7 @@
       "type": "string",
       "required": true
     },
-    "hiragana": {
+    "furigana": {
       "type": "string",
       "required": true
     },
@@ -26,8 +26,8 @@
       "required": true
     },
     "lists": {
-      "via": "words",
-      "collection": "list"
+      "collection": "list",
+      "via": "words"
     },
     "user": {
       "plugin": "users-permissions",
@@ -35,8 +35,8 @@
       "via": "words"
     },
     "tags": {
-      "via": "words",
-      "collection": "tag"
+      "collection": "tag",
+      "via": "words"
     }
   }
 }

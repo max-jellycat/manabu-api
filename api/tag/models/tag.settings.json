@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "tags",
   "info": {
     "name": "Tag"
   },
@@ -15,8 +17,8 @@
       "type": "string"
     },
     "words": {
-      "collection": "word",
       "via": "tags",
+      "collection": "word",
       "dominant": true
     },
     "user": {
@@ -24,7 +26,5 @@
       "model": "user",
       "via": "tags"
     }
-  },
-  "connection": "default",
-  "collectionName": "tags"
+  }
 }
