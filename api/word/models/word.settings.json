@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "words",
   "info": {
     "name": "Word"
   },
@@ -22,8 +24,15 @@
     "roumaji": {
       "type": "string",
       "required": true
+    },
+    "lists": {
+      "via": "words",
+      "collection": "list"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "words"
     }
-  },
-  "connection": "default",
-  "collectionName": "words"
+  }
 }

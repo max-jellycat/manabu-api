@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "lists",
+  "info": {
+    "name": "List"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "words": {
+      "collection": "word",
+      "via": "lists",
+      "dominant": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "lists"
+    }
+  }
+}
