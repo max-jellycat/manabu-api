@@ -16,7 +16,7 @@
     "dotenv": "^8.2.0",
     "find-config": "^1.0.0",
     "knex": "<0.20.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "sqlite3": "latest",
     "strapi": "3.0.0-beta.18.7",
